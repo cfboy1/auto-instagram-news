@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.venv*/
+venv/
+
+# Node
+node_modules/
+
+# Secrets
+.env
+.env.local
+.env*.local
+
+# Runtime data (audio pool, SQLite db, render cache)
+tg365-service/data/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# فونت‌های تستی (لایسنس مشکوک — فقط لوکال)
+font-candidates/

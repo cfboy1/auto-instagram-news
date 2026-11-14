@@ -1,0 +1,21 @@
+@font-face{font-family:'Plasma';src:url('fonts/Plasma-Lozenge-Dots.ttf') format('truetype');font-weight:100 900;font-style:normal}
+@font-face{font-family:'Shazde';src:url('fonts/Shazde-VF.ttf') format('truetype');font-weight:100 900;font-style:normal}
+@font-face{font-family:'Badkhat';src:url('fonts/Badkhat.ttf') format('truetype');font-weight:100 900;font-style:normal}
+@font-face{font-family:'Kalameh';src:url('fonts/Kalameh-Black.ttf') format('truetype');font-weight:400;font-style:normal}
+@font-face{font-family:'Peyda';src:url('fonts/Peyda-Regular.ttf') format('truetype');font-weight:400;font-style:normal}
+@font-face{font-family:'Peyda';src:url('fonts/Peyda-Bold.ttf') format('truetype');font-weight:700;font-style:normal}
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1920px;font-family:'Shazde','Noto Sans Arabic',Tahoma,sans-serif}
+:root{--red:#D0201F;--red-dk:#A31615;--paper:#EEF3F5;--ink:#1A2440}
+/* تیترها: کلمه (انتخاب کاربر ۱۴۰۳-۱۱) — پلاسما پشتیبان */
+h1,h2,.w1,.w2,.stay,.badge,.cat,.catstrip{font-family:'Kalameh','Plasma','Shazde',Tahoma,sans-serif;font-weight:400}
+.chip,.handle{font-family:'Arial','DejaVu Sans',sans-serif;font-weight:900}
+/* لاتین برند */
+.brand,.big,.tuned{font-family:'Arial','DejaVu Sans',sans-serif;font-weight:900}
+.brandbar{position:absolute;top:60px;right:80px;left:80px;display:flex;justify-content:space-between;align-items:center;z-index:5}
+.brand{font-size:52px;letter-spacing:4px;color:#fff;direction:ltr}
+.brand .n365{color:#ffd166}
+.live{background:#fff;color:var(--red);font-size:30px;font-weight:900;border-radius:8px;padding:8px 22px;letter-spacing:2px;direction:ltr}
+.dots{position:absolute;border-radius:50%;background-image:radial-gradient(circle,rgba(255,255,255,.45) 7px,transparent 8px);background-size:36px 36px;z-index:1}
+.outline{color:transparent;-webkit-text-stroke:4px rgba(255,255,255,.9)}
+.badge{display:inline-block;background:#fff;color:var(--red);font-size:44px;border-radius:10px;padding:14px 36px}
